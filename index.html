@@ -125,7 +125,7 @@
           <h3>Why Choose Us?</h3>
           <span class="line"></span>
           <p>We are <strong>cheaper than online</strong> with <strong>quality parts and service</strong> and <br>
-            <h4 style="color:#8e1efc">Guaranteed Satisfaction!</h4></p>
+            <h4 class="base_color">Guaranteed Satisfaction!</h4></p>
         </div>
         <div class="section-content text-center">
           <div class="row">
@@ -395,18 +395,6 @@
   </div>
 </section>
 
-<!-------Download End------->
-
-<footer class="footer-copy">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-        <p>2025 &copy; Applight. Website Designed by <a href="http://w3Template.com" target="_blank" rel="dofollow">W3 Template</a></p>
-      </div>
-    </div>
-  </div>
-</footer>
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> 
@@ -447,7 +435,7 @@ $(window).on("scroll",function () {
 	
 	if(bodyScroll > 50){
     $('.navbar-logo strong').removeClass('white');
-    $('.navbar-logo').css('color','#5f0099 !important');
+    $('.navbar-logo strong').addClass('base_color');
 	  $('.navbar-logo img').attr('src','images/logo-black.png');
 	navbar.addClass("nav-scroll");
 
@@ -464,7 +452,7 @@ $(window).on("load",function (){
 	
 	if(bodyScroll > 50){
   $('.navbar-logo strong').removeClass('white');
-  $('.navbar-logo').css('color','#5f0099 !important');
+  $('.navbar-logo strong').addClass('base_color');
 	$('.navbar-logo img').attr('src','images/logo-black.png');
 	navbar.addClass("nav-scroll");
 	}else{
